@@ -19,5 +19,3 @@ def preencher(tabela: str, colunas: list, dados: list) -> str:
 
 
 	return f'INSERT INTO {tabela} ({colunas}) VALUES ({dados});'
-
-preencher('vinhos',['safra','teor'],['Seco','null'])
